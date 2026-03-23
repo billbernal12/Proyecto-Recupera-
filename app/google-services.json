@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "978503537838",
+    "firebase_url": "https://recupera-plus-default-rtdb.firebaseio.com",
+    "project_id": "recupera-plus",
+    "storage_bucket": "recupera-plus.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978503537838:android:fbed5ce96c6bcc1e44093f",
+        "android_client_info": {
+          "package_name": "com.example.recupera_plus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978503537838-8s2lc5ermfr13ffrtek6s6arkc04sic6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recupera_plus",
+            "certificate_hash": "78ccaf98f42670a79bd755b90b614b1ec8f1fd58"
+          }
+        },
+        {
+          "client_id": "978503537838-c3pnls02n7usf53k22jchtgejjnq5abg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsVukO1AOinoz34ty01AvAphDqAUbVcS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978503537838-c3pnls02n7usf53k22jchtgejjnq5abg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

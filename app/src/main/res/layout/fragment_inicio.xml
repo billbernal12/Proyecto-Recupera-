@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    tools:context=".InicioFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Encabezado con logo y botón de logout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <!-- Logo -->
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:src="@drawable/logo_rehabilitacion"
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:contentDescription="Logo"
+                android:layout_gravity="center_vertical" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <!-- Icono Logout -->
+            <ImageView
+                android:id="@+id/imgLogout"
+                android:src="@drawable/ic_logout"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="Cerrar sesión"
+                android:padding="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <!-- Saludo -->
+        <TextView
+            android:id="@+id/txtHola"
+            android:text="¡Hola, Usuario!"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Pregunta -->
+        <TextView
+            android:text="¿Primera vez en esta aplicación?"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Botones Tutorial / Saltar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btnVerTutorial"
+                android:text="Ver Tutorial"
+                android:backgroundTint="#7CB342"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnSaltar"
+                android:text="Saltar"
+                android:backgroundTint="#1976D2"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Cuadro Progreso -->
+        <TextView
+            android:text="PROGRESO"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imgProgreso"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/border_box"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Imagen de progreso" />
+
+        <!-- Rutinas -->
+        <TextView
+            android:text="RUTINAS REALIZADAS"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txtRutinas"
+            android:hint="Aquí se mostrarán tus rutinas..."
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/border_box"
+            android:inputType="textMultiLine" />
+
+    </LinearLayout>
+</ScrollView>

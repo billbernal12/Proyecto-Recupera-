@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bg_bot_bubble"
+    android:padding="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:gravity="start">
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Hola! Soy el ChatBot de Recupera+"
+        android:textSize="14sp"
+        android:textColorLink="@android:color/holo_blue_dark"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnGenerarHistoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generar historia clínica"
+        android:padding="8dp"
+        android:maxLines="3"
+        android:ellipsize="none"
+        android:singleLine="false"
+        android:scrollHorizontally="false"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"/>
+
+
+    <Button
+        android:id="@+id/btnDiagnosticar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIAGNOSTICAR SITUACIÓN"
+        android:padding="8dp"
+        android:maxLines="3"
+        android:ellipsize="none"
+        android:singleLine="false"
+        android:scrollHorizontally="false"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnContactar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTACTAR CON UN ESPECIALISTA"
+        android:padding="8dp"
+        android:maxLines="3"
+        android:ellipsize="none"
+        android:singleLine="false"
+        android:scrollHorizontally="false"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
+
+
